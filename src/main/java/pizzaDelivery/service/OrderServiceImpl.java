@@ -1,8 +1,8 @@
 package pizzaDelivery.service;
 
-import pizzaDelivery.entity.Order;
-import pizzaDelivery.entity.Pizza;
-import pizzaDelivery.entity.User;
+import pizzaDelivery.domain.Order;
+import pizzaDelivery.domain.Pizza;
+import pizzaDelivery.domain.User;
 import pizzaDelivery.repository.OrderRepo;
 
 import java.util.Arrays;

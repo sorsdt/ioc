@@ -1,7 +1,7 @@
 package pizzaDelivery.repository;
 
-import pizzaDelivery.PizzaType;
-import pizzaDelivery.entity.Pizza;
+import pizzaDelivery.domain.PizzaType;
+import pizzaDelivery.domain.Pizza;
 
 import java.util.List;
 

@@ -1,6 +1,4 @@
-package pizzaDelivery.entity;
-
-import pizzaDelivery.PizzaType;
+package pizzaDelivery.domain;
 
 import java.math.BigDecimal;
 

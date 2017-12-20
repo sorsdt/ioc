@@ -3,7 +3,7 @@ package pizzaDelivery;
 import ioc.Config;
 import ioc.JavaConfig;
 import ioc.SimpleIoC;
-import pizzaDelivery.entity.User;
+import pizzaDelivery.domain.User;
 import pizzaDelivery.repository.OrderRepoInMemory;
 import pizzaDelivery.repository.PizzaRepoInMemory;
 import pizzaDelivery.service.OrderService;

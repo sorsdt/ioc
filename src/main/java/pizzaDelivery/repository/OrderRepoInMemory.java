@@ -1,6 +1,6 @@
 package pizzaDelivery.repository;
 
-import pizzaDelivery.entity.Order;
+import pizzaDelivery.domain.Order;
 
 import java.util.ArrayList;
 import java.util.List;

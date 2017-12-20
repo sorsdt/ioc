@@ -1,4 +1,4 @@
-package pizzaDelivery.entity;
+package pizzaDelivery.domain;
 
 import java.math.BigDecimal;
 import java.util.List;
