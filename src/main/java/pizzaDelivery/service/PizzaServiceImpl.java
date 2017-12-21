@@ -9,9 +9,6 @@ import java.util.List;
 public class PizzaServiceImpl implements PizzaService {
     private PizzaRepo pizzaRepo;
 
-    public PizzaServiceImpl() {
-    }
-
     public PizzaServiceImpl(PizzaRepo pizzaRepo) {
         this.pizzaRepo = pizzaRepo;
     }

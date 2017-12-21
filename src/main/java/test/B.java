@@ -1,4 +1,4 @@
-package pizzaDelivery.service;
+package test;
 
 public class B {
     private A a;

@@ -17,8 +17,8 @@ public class Main {
     public static void main(String[] args) {
         Config config = new JavaConfig(new HashMap<String, Class<?>>(){{
             put("pizzaRepo", PizzaRepoInMemory.class);
-            put("pizzaService", PizzaServiceImpl.class);
             put("orderRepo", OrderRepoInMemory.class);
+            put("pizzaService", PizzaServiceImpl.class);
             put("orderService", OrderServiceImpl.class);
         }});
         SimpleIoC ioC = new SimpleIoC(config);

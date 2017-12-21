@@ -3,9 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean name="serviceRepo" class="pizzaDelivery.service.PizzaServiceImpl"/>
-    <bean name="a" class="pizzaDelivery.service.A">
-    <constractor
-    <bean/>
+    <bean name="pizzaService" class="pizzaDelivery.service.PizzaServiceImpl">
+        <constructor-arg ref="pizzaRepo"/>
+    </bean>
+    <bean name="orderService" class="pizzaDelivery.service.OrderServiceImpl">
+        <constructor-arg ref="orderRepo"/>
+    </bean>
 
 </beans>
